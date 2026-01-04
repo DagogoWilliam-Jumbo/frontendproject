@@ -1,0 +1,7 @@
+{
+  "endpoints": [],
+  "npc_endpoints": [],
+  "cronJobs": [],
+  "integrations": [],
+  "notes": "This is a static frontend-only portfolio with no backend API endpoints"
+}

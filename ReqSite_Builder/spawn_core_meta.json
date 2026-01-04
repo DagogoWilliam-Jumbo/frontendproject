@@ -1,0 +1,28 @@
+{
+  "desc": "DAGOGO WILLIAM-JUMBO's colorful multi-page developer portfolio with vibrant blue/teal theme",
+  "sub_projects": [
+    {
+      "id": "frontend",
+      "desc": "Next.js portfolio with 5 separate pages (Home, Projects, Experience, Skills, Contact) - blue primary (#3B82F6), teal secondary (#14B8A6) color scheme with gradients and mobile hamburger menu",
+      "path": "frontend",
+      "deploy_platform": "vercel-frontend"
+    }
+  ],
+  "env_files": [
+    {
+      "id": "frontend",
+      "path": "frontend/.env"
+    }
+  ],
+  "deploy_files": [
+    {
+      "id": "frontend",
+      "project_path": "frontend/",
+      "path": "frontend/cook.sh",
+      "platform": "web",
+      "dev_script": "frontend/dev.sh",
+      "type": "vercel_frontend",
+      "port": 3000
+    }
+  ]
+}
